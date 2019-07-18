@@ -3,7 +3,7 @@
 const extractZip = require("extract-zip");
 const path = require("path");
 
-const binPath = path.join(__dirname, "binding", "hummus.node.zip");
+const binPath = path.join(__dirname, "hummus.zip");
 console.log(binPath);
 
 extractZip(
